@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+
+/* SIGN UP FORM STYLING STARTS HERE */
+main{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.624);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.sign-up{
+    width: 30%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(221, 222, 224);
+    padding: 20px;
+
+}
+.su-1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1.5px solid rgb(176, 186, 190);
+}
+.close{
+    color: #161f2a;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.su-form .name{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(185, 215, 226);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    outline: none;
+    background-color: #f4f7fc;
+    font-size: .9em;
+}
+.su-form p{
+    font-size: .7em;
+    color: rgb(86, 83, 83); 
+    margin: 5px 0;  
+}
+.su-form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    margin: 18px auto;
+    background-color: #26ad0b;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 7px;
+    border: none;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.name-input{
+    display: flex;
+    gap: 10px;
+}
+.name-input input{
+    height: 35px;
+}
+.dob{
+    margin: 10px 0; 
+}
+.dob p,
+.gender p{
+    font-size: .8em;
+    color: rgb(86, 83, 83);
+}
+.dob-con,
+.gender-con{
+    display: flex;
+    justify-content: space-between;
+}
+.dob-con select,
+.gender-con label{
+    width: 30%;
+    height: 30px;
+    font-size: .9em;
+    border: 1px solid rgb(185, 215, 226);
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    margin: 2px 0;
+}
+.gender-con label{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+}
+/* SIGN UP FORM STYLING ENDS HERE */
+
+
+.fb-body{
+    background-color: #f0f2f5;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background: transparent;
+    width: 80%;
+    height: 80%;
+    margin: 0 50px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.logo{
+    width: 70%;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.left{
+    width: 100%;
+    padding-top: 50px;
+}
+.left p{
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+.right{
+    margin-right: 50px;
+}
+.right form{
+    padding: 20px 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    height: 90%;
+    box-shadow: 5px 5px 10px rgb(221, 222, 224);
+    text-align: center;
+}
+.right form input{
+    width: 320px;
+    height: 50px;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid rgb(185, 215, 226);
+    border-radius: 5px;
+    outline: none;
+}
+.login{
+    background-color: #1877F2;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.right form p{
+    font-size: 1em;
+    color: rgb(27, 27, 233);
+    width: 100%;
+    border-bottom: 1px solid rgb(176, 186, 190);
+    padding-bottom: 20px;
+}
+.new{
+    background-color: #42B72A;
+    width: 60%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cbp{
+    margin: 20px;
+}
+footer{
+    padding: 20px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot h5{
+    color: rgb(104, 128, 154);
+    padding: 10px 0;
+    font-size: .8em;
+    letter-spacing: .9px;
+}
+.pry{
+   border-bottom: 1px solid ;
+}
+.pry button{
+    padding: 0 7px;
+    color: rgb(35, 35, 135);
+    font-size: bold
+}
